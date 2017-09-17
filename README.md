@@ -8,8 +8,15 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 ```python
-def square_me(x):
-  return x**2
+def backwards_method(start):
+    y_n=0
+    #print 'y{:0>2}= {}'.format(start,y_n)
+    for x in xrange(start,0,-1):
+        y_n=.1*(1.0/x-y_n)
+        if x==23:
+            print 'Start: {} y{:0>2}= {:.18f}'.format(start,x-1,y_n)
+        #print 'y{:0>2}= {}'.format(x-1,y_n)
+    #print 'y{:0>2}= {}'.format(0,math.log(11.0/10.0))
 ```
 ```markdown
 Syntax highlighted code block
