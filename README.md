@@ -3,6 +3,16 @@
 You can use the [editor on GitHub](https://github.com/swiser/swiser.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Table of Contents
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+Page|Description
+:---|:---
+[Homework 1](https://swiser.github.io/Homework_1)|Covers just the basics.
+
 
 ### Markdown
 
